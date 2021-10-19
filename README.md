@@ -29,13 +29,13 @@ Investiga que es el interés convertido nominal y aplícalo en tu fórmula.
 
 Se utilizaron las siguientes formulas del Interes Compuesto:
 
-Valor Futuro $$VF = VP  (1+i)^n$$
+Valor Futuro ` VF = VP  (1+i)^n `
 
-Valor Presente $$VP = VF / (1+i)^n$$
+Valor Presente ` VP = VF / (1+i)^n `
 
-Interes Compuesto $$i = ((VF/VP)^{(1/n)})-1$$
+Interes Compuesto ` i = ((VF/VP)^{(1/n)})-1 `
 
-Periodo $$(logVF - logVP)/log(1+i) $$
+Periodo ` (logVF - logVP)/log(1+i) `
 
 Donde:
 - VF = Valor Futuro
@@ -43,7 +43,7 @@ Donde:
 - i = interés compuesto del periodo
 - n = total de periodos
 
-###Uso de la Aplicación
+### Uso de la Aplicación
 
 La aplicación fue desarrollada con python 3, es una aplicación de consola y para poder ejecutarla se deben seguir los siguientes pasos en ambiente mac, para windows o linux, podría haber alguna modificación en los comandos.
 
